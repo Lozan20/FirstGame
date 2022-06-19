@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{21EB8090-0D4E-1035-B6D3-48EBA215DCB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E9C7FDCE-D52A-8D73-7EB0-C5296AF258F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\game\src\screens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetect.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="FileRead.h" />
+    <ClInclude Include="KeyboardEventHandler.h" />
+    <ClInclude Include="Lives.h" />
+    <ClInclude Include="Moveable.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Points.h" />
+    <ClInclude Include="PowerUp.h" />
+    <ClInclude Include="WindowVars.h" />
+    <ClInclude Include="raygui.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\game\src\raylib_game.cpp" />
+    <ClCompile Include="CollisionDetect.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="KeyboardEventHandler.cpp" />
+    <ClCompile Include="Lives.cpp" />
+    <ClCompile Include="Moveable.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Points.cpp" />
+    <ClCompile Include="WindowVars.cpp" />
+    <ClCompile Include="PowerUp.cpp" />
+  </ItemGroup>
+</Project>
